@@ -2,7 +2,6 @@
 using Spectre.Console;
 using Spectre.Console.Rendering;
 
-var textWriter = new StringWriter();
 var console = AnsiConsole.Create(new AnsiConsoleSettings());
 
 var tree = new Tree("Root");
